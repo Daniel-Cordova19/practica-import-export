@@ -15,3 +15,5 @@ function checkCoupon(enteredCode, correctCode, currentDate, expirationDate) {
   return false;
   // Devolvemos false porque el cupón no es válido en este caso.
 }
+
+export default checkCoupon;
